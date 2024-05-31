@@ -1,2 +1,3 @@
-# Aplikasi Nilai
-## CRUD KELAS
+# Aplikasi Sekolah
+## DATA NILAI, GURU, KELAS, MAPEL. 
+### KEVIN ANDREA SAPUTRA 

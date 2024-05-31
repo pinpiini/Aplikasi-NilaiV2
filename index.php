@@ -28,7 +28,23 @@
                         <a class="nav-link" href="?m=kelas">Kelas</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="?m=mapel">Mata Pelajaran</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?m=guru">Guru</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="?m=siswa">Siswa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Nilai
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="?m=grmp">Guru - Mapel</a>
+                        <a class="dropdown-item" href="?m=grkl">Guru - Kelas</a>
+                        <a class="dropdown-item" href="?m=nilai">Nilai</a>
+                        </div>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -39,7 +55,7 @@
         </div>
     </nav>
  
-    <div class="container mt-2">
+    <div class="container mt-2 mb-4">
         <?php include_once('webpro.php'); ?>
     </div>
  

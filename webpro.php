@@ -12,5 +12,12 @@ switch ($module) {
     case 'siswa':
         include_once('siswa/index.php');
         break;
+    case 'guru':
+        include_once('guru/index.php');
+        break;
+        break;
+    case 'mapel':
+        include_once('mapel/index.php');
+        break;
         break;
 }
